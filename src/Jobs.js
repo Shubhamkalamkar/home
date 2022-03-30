@@ -151,7 +151,7 @@ export default function Jobs() {
 
   return (
     <div>
-      {data.map((info) => {
+      {data.map((info, i) => {
         return (
           <div className="container">
             <div className="box">
